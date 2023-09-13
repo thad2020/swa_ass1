@@ -18,3 +18,5 @@ function Wind(time, place, value, type, unit, direction) {
 
   return { ...weatherData, getDirection, convertToMPH, convertToMS };
 }
+
+export default Wind;

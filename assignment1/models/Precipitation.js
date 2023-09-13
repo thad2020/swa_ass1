@@ -17,3 +17,5 @@ function Precipitation(time, place, value, type, unit, precipitationType) {
   };
   return { ...weatherData, getPrecipitationType, convertToInches, convertToMM };
 }
+
+export default Precipitation;

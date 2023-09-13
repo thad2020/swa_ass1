@@ -17,3 +17,5 @@ function Temperature(time, place, value, type, unit) {
 
   return { ...weatherData, convertToF, convertToC };
 }
+
+export default Temperature;
